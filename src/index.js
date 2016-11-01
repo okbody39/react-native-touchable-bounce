@@ -8,8 +8,9 @@
  */
 'use strict';
 
-var React = require('react-native');
-var { Animated, Touchable, PropTypes } = React;
+import React, { Component, PropTypes } from 'react'
+var ReactNative = require('react-native');
+var { Animated, Touchable, PropTypes } = ReactNative;
 
 var EdgeInsetsPropType = React.PropTypes.shape({
   top: React.PropTypes.number,
