@@ -10,7 +10,7 @@
 
 import React, { Component, PropTypes } from 'react'
 var ReactNative = require('react-native');
-var { Animated, Touchable, PropTypes } = ReactNative;
+var { Animated, Touchable } = ReactNative;
 
 var EdgeInsetsPropType = React.PropTypes.shape({
   top: React.PropTypes.number,
